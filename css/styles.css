@@ -1,0 +1,24 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 -12px;
+}
+.gallery li {
+    width: calc(33.3333% - 24px);
+    margin: 0 12px 24px;
+}
+.gallery li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+}
+.gallery li:hover img {
+    transform: scale(1.04);
+}
+
+.js-backdrop {
+    background: rgba(46, 47, 66, .8);
+}
