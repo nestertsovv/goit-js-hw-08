@@ -113,6 +113,8 @@ function onOpenModal(e) {
 
 function createModal(imgUrl, imgAlt, imgModalOptions) {
     return basicLightbox.create(`
+    <div class="img-wrapper">
         <img src="${imgUrl}" alt="${imgAlt}">
+    </div>
     `, imgModalOptions);
 }

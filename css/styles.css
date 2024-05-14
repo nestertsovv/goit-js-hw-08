@@ -22,3 +22,7 @@
 .js-backdrop {
     background: rgba(46, 47, 66, .8);
 }
+.js-backdrop .img-wrapper img {
+    max-width: 95%;
+    max-height: 95%;
+}
